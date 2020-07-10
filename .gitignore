@@ -1,0 +1,6 @@
+dortt/node_modules
+dortt/**/**/*.js
+dortt/**/**/*.js.map
+
+dortt-api/node_modules
+dortt-api/.env

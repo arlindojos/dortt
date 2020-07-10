@@ -1,0 +1,329 @@
+.fontprogram{
+            font-family: 'Montserrat', sans-serif;
+        }
+        .navbar-brand {
+            width: 90px;   
+        }
+    
+        body{
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 15px;
+        }
+        .navbar {
+            background-color: #246870;
+            font-size: 16px;
+            padding: 8px 15px;
+        }
+        .dropdown:hover>.dropdown-menu{
+            display: block;
+        }
+        .nav-link {
+            color: #edf0f1 !important;
+        }
+        .nav-link:hover{
+             color: #0088a9 !important;
+        }
+        .btn{
+            background-color: rgba(0, 136, 169, 1);
+        }
+        .btn:hover{
+            background-color: rgba(0, 136, 169, 0.8);
+        }
+        .btn-not-hovered:hover{
+            color: #edf0f1 !important;
+        }
+        .whatsapp{
+            right: 30px;
+        }
+        @media only screen and (min-width: 768px){
+             .dropdown-menu:hover>.submenu-2{
+                display: block;
+                margin-left: 140px;
+                margin-top: -50px;
+                border-left: none;
+            }
+
+            /** Footer **/
+            footer .img-fluid{
+                margin:95px 0 0 15px;
+            }
+        }
+        /** Styling Contatos.html **/
+        .container-fluid .row .img-fluid{
+            margin-top: 30px;
+        }
+        .container-fluid .form-group{
+            margin-top: 150px;
+        }
+        .container-fluid .form-group input:nth-child(3){
+            margin-bottom: 40px;
+        }
+        .container-fluid .form-group textarea{
+            margin-bottom: 30px;
+        }
+        .container-fluid .form-group .contatos{
+            margin-top: 10px;
+            border: none;
+            border-radius: 0px;
+            border-bottom: 1px solid #246870;
+        }
+        
+/** Styling log-in.html **/
+.Wreper{
+    width: 100%;
+    margin-top: 40px;
+}
+.title{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 700;   
+    color: #505050;
+} 
+.social-icons{
+    position: relative;
+    text-align: center;
+}
+#smd-link{
+    display: inline-block;
+    margin: 15px;
+    font-size: 35px;
+    color: #246870;
+    cursor: pointer;
+}
+.Wreper .profile_pic{
+    margin: 0 auto;
+    text-align: center;
+}
+.row .Wreper .img-fluid{
+    width: 140px;
+}
+.reset-margin{
+    margin-top: 50px;
+}
+#reset-btn{
+    align-items: center;
+}
+
+/** styling escreva-se.html **/
+.form-check-label{
+    margin-left: 20px;
+}
+
+#btn-submit{
+    width: 250px;
+}
+/** styling index.php **/
+.heading-website{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 50px 0;
+}
+.button-website a{
+    width: 200px;
+}
+.wellcome-divs{
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.1);
+}
+.title-possivel{
+    font-weight: bold; 
+    font-size: 26px;
+    text-align: center;
+    padding-top: 30px;
+}
+.first-div-possivel,.second-div-possivel, .thrd-div-possivel{
+    margin: 1% 0;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.margin-divs{
+    margin: 30px 20px;
+    text-indent: 30px;
+}
+.links-servicos a{
+    width: 300px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+@media only screen and (max-width: 992px){
+    .heading-website{
+        font-size: 43px;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .heading-website{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 419px){
+    .heading-website{
+        font-size: 35px;
+        margin-top: 25px;
+    }
+        .button-website a{
+        width: 150px;
+    }
+}
+.heading-website img{
+    width: 70px;
+    background-image: url();
+}
+.website-links li a{
+    text-decoration: none;
+    font-size: 17px;
+}
+.website-links{
+    margin-top: 60px;
+}
+
+@media only screen and (max-width: 1200px){
+    .website-links{
+        margin-top: 90px;
+    }
+}
+/** contato-web.html **/
+.mail-sent-img{
+    width: 250px;
+}
+.form-contato-web{
+    margin-top: 10px;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #246870;
+}
+.form-select-contato{
+    color: #505050;
+} 
+.form-select-contato select{
+    color: #495057;
+} 
+.form-select-container{
+    background-color: #E1E1E1;
+    padding: 20px;
+}
+@media only screen and (max-width: 768px){
+    /** log-in.html**/
+    .row .Wreper .img-fluid{
+        width: 100px;
+    }
+    /** websites.html **/
+    .website-links{
+        margin-top: 30px;
+    }
+    /** contato-web **/
+    .mail-sent-img{
+       display: none;
+    }
+    /** footer **/
+    footer .img-fluid{
+        margin: 0 60px 60px 60px;
+    }
+    .whatsapp{
+        right: 15px;
+        bottom: 12px;
+    }
+}
+
+/** About us **/
+.about-us{
+    position: relative;
+    display: inline;
+}
+.about-div-margin{
+        margin-top: 200px;
+}
+.about-As-2{
+    display: none;
+ }
+.about-Ar-2{
+    display: none;
+}
+.about-Ar{
+    position: absolute;
+    transform: translateX(30%);
+    width: 300px;
+}
+.about-As{
+    position: absolute;
+    transform: translateX(230%);
+    width: 300px;
+}
+@media only screen and (max-width: 1150px){
+    .about-As{
+    left: -120px;
+ }
+ .about-Ar{
+    left: -50px;
+    }
+}
+@media only screen and (max-width: 992px){
+    .about-As{
+    left: -180px;
+    width: 250px;
+    font-size: 14px;
+ }
+ .about-Ar{
+    left: -50px;
+    width: 250px;
+    font-size: 14px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .about-As{
+    display: none;
+ }
+ .about-Ar{
+    display: none;
+    }
+    .about-As-2{
+    display: block;
+ }
+ .about-Ar-2{
+    display: block;
+    }
+    .about-div-margin{
+        margin-top: 50px;
+    }
+}
+      /** Footer **/
+        footer{
+            background-color:  #212121;
+            padding: 20px 0 0;
+            font-size: 13px;
+        }
+
+       footer .row .footer-links a,  footer .row .footer-links span, img{
+           color: #fff;
+           text-decoration: none;
+           display: block;
+           line-height: 30px;
+           overflow: hidden;
+           cursor: none;
+       }
+       footer .row .footer-links a:hover{
+            color: #246870;
+            cursor: pointer;
+       }
+       .legal-link{
+           color: rgba(0, 136, 169, 1);
+           text-decoration: none;
+       }
+        .legal-link:hover{
+            cursor: pointer;
+            color: #00c0f0;
+            text-decoration: none;
+        }
+        .footer-social{
+            cursor: none;
+        }
+       .footer-social i{
+          width: 36px;
+          height: 36px;
+          line-height: 36px;
+          text-align: center;
+          font-size: 16px;
+          margin: 10px;
+          border-radius: 50%;
+          background-color: #495057;
+          display: inline-block;
+          overflow: hidden;
+          cursor: pointer;
+       }

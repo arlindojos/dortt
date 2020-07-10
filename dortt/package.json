@@ -1,0 +1,32 @@
+{
+  "name": "dortt",
+  "version": "1.0.0",
+  "description": "this website is for dortt services",
+  "main": "index.js",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Arlindo José",
+    "email": "arlindojosboa@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-typescript": "^7.10.1",
+    "@types/axios": "^0.14.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.1.0",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "start": "webpack --mode=production",
+    "dev": "webpack-dev-server --mode=development"
+  }
+}

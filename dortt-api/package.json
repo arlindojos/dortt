@@ -1,0 +1,39 @@
+{
+  "name": "dortt-project",
+  "version": "0.0.1",
+  "description": " TypeORM with TypeScript.",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "author": {
+    "name": "Arlindo Jos�",
+    "email": "arlindojosboa@gmail.com"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/body-parser": "^1.16.8",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.11.1",
+    "@types/node": "^9.6.5",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "tsc-watch": "^4.2.8",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "express-validator": "^6.5.0",
+    "pg": "^8.2.1",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.0",
+    "yarn": "^1.22.4"
+  },
+  "scripts": {
+    "start": "tsc && node dist/src/index.js",
+    "test": "tsc-watch --onSuccess \"node dist/src/index.js\" ",
+    "dev": "ts-node-dev --respawn --transpileOnly src/index.ts"
+  }
+}
