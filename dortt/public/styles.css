@@ -112,7 +112,23 @@
 #btn-submit{
     width: 250px;
 }
-/** styling index.php **/
+/** styling index.html **/
+@media only screen and (max-width: 1123px){
+    .btn-home-for-size{
+        width: 200px !important;
+    }
+}
+@media only screen and (max-width: 954px){
+    .btn-home-for-size{
+        width: 150px !important;
+    }
+}
+@media only screen and (max-width: 768px){
+    .btn-home-for-size{
+        width: 230px !important;
+    }
+}
+/** styling websites-Blogs **/
 .heading-website{
     font-size: 45px;
     font-weight: 700;

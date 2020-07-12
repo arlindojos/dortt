@@ -16,9 +16,6 @@ services:
             - 80:9000
         command: yarn dev
         deploy:
-            replicas: 2
-            update_config:
-                parallelism: 2
             restart_policy:
                 condition: on-failure
     postgresdb:
@@ -58,8 +55,6 @@ services:
         ports:
             - "3001:3001"
         deploy:
-            update_config:
-                parallelism: 2
             restart_policy:
                 condition: on-failure
 

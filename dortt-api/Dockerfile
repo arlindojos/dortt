@@ -4,7 +4,7 @@ FROM node:12-alpine
 RUN mkdir -p /home/dortt/api/node_modules && chown -R node:node /home/dortt/api
 WORKDIR /home/dortt/api
 
-COPY ormconfig.ts .env package.json yarn.* ./
+COPY package.json yarn.* ./
 USER node
 RUN yarn
 
